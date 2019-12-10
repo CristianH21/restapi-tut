@@ -1,0 +1,20 @@
+{
+  "name": "restapi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
